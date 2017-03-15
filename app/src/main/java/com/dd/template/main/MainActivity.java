@@ -44,4 +44,16 @@ public class MainActivity extends AppCompatActivity implements MainView {
     public void exit() {
         finish();
     }
+
+    private void someMethod(int a, int b, int c, int d) {
+        if (a > b) {
+//            if (b > c) {
+//                if (c > d) {
+//                    if (d > a) {
+//                        // some logic
+//                    }
+//                }
+//            }
+        }
+    }
 }
